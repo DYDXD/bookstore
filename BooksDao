@@ -1,0 +1,17 @@
+package biz.admin.books.dao;
+
+import org.apache.commons.dbutils.QueryRunner;
+
+import utils.JDBCUtil;
+
+public class BooksDao {
+	private QueryRunner qr = new QueryRunner(JDBCUtil.getDataSource());
+
+	public void queryTypes(){
+		
+	}
+	public void addBooks(){
+		String sql="insert into books values()";
+	}
+
+}
